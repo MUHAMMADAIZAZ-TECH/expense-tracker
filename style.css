@@ -1,0 +1,36 @@
+*{
+    font-style: italic;
+    font-weight: bold;
+}
+.ul{
+    list-style: none;
+}
+.expense-container{
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+    
+    padding: 25px !important;
+    min-height: fit-content;
+}
+h1,h2,label{
+    color: #28a745;
+    text-align: center;
+}
+
+.my-custom-scrollbar {
+    position: relative;
+    height: 200px;
+    overflow: auto;
+    }
+    .table-wrapper-scroll-y {
+    display: block;
+    }
+.table{
+    text-align: center !important;
+}
+
+.modal-body div{float:left; width: 100%}
+.modal-body div p{float:left; width: 20%; font-weight: 600;}
+.modal-body div span{float:left; width: 80%}
